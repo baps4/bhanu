@@ -5,14 +5,28 @@ body{
     background-color:rgb(199, 199, 199);
 }
 
-nav{
-    background-color: #333;
+.other{
+    background-color:rgb(200, 255, 118, 0.5 );
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.index {
+    background: radial-gradient(circle at center, blue, green);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    border-radius: 100%;
+     background-color:rgb(6, 144, 199);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 nav img{
     width: 50PX;
     height: 50PX;
